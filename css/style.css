@@ -64,7 +64,7 @@ p {
   color: #212B31;
   text-decoration: underline;
   text-decoration-color: #FFD042;
-  text-decoration-thickness: 6px;
+  text-decoration-thickness: 7px;
 }
 
 .container {
@@ -257,5 +257,52 @@ p {
 
 .definition__title__description {
   font-size: 16px;
+}
+
+.delivery {
+  margin-top: 150px;
+}
+
+.delivery__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery__title {
+  text-align: center;
+}
+
+.delivery__subtitle {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.delivery__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.delivery__material {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 30%;
+  margin: 22px 16px;
+}
+
+.delivery__material__image {
+  margin-right: 16px;
+}
+
+.delivery__material__description {
+  font-size: 16px;
+  margin: 0;
+}
+
+.delivery__material__title {
+  margin: 0;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
