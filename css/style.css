@@ -8,6 +8,7 @@
 body * {
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 .button-cta {
@@ -39,12 +40,12 @@ body * {
 
 h1 {
   font-size: 48px;
-  text-align: center;
   line-height: 64px;
   color: #212B31;
 }
 
 h2 {
+  font-size: 32px;
   color: #212B31;
 }
 
@@ -54,7 +55,7 @@ h3 {
 }
 
 p {
-  font-size: 20;
+  font-size: 20px;
   color: #72787D;
 }
 
@@ -98,6 +99,10 @@ p {
   padding: 9px 20px;
 }
 
+.hero {
+  text-align: center;
+}
+
 .hero__container {
   display: flex;
   flex-direction: column;
@@ -138,5 +143,22 @@ p {
 
 .hero__advantage__title {
   margin-bottom: 10px;
+}
+
+.chaos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.chaos__description {
+  margin-bottom: 40px;
+}
+
+.chaos__background {
+  margin-bottom: 150px;
 }
 /*# sourceMappingURL=style.css.map */
