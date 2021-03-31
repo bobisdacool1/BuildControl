@@ -59,6 +59,14 @@ p {
   color: #72787D;
 }
 
+.additional {
+  font-size: 20px;
+  color: #212B31;
+  text-decoration: underline;
+  text-decoration-color: #FFD042;
+  text-decoration-thickness: 6px;
+}
+
 .container {
   width: 1040px;
   margin: 0 auto;
@@ -160,5 +168,14 @@ p {
 
 .chaos__background {
   margin-bottom: 150px;
+}
+
+.we-care {
+  margin-top: 150px;
+}
+
+.we-care__container {
+  display: flex;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
