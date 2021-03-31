@@ -5,26 +5,57 @@
   font-style: normal;
 }
 
-body {
+body * {
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
 
-body * {
-  box-sizing: border-box;
-}
-
-.button-call-to-action {
+.button-cta {
   padding: 13px 25px;
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   background-color: #212B31;
   border: 1px solid #212B31;
   border-radius: 4px;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
 }
 
-.button-call-to-action:focus {
+.button-cta:focus {
   outline: none;
+}
+
+.button-o {
+  padding: 13px 25px;
+  background: transparent;
+  font-size: 18px;
+  border: 1px solid #DADEDF;
+  border-radius: 4px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+}
+
+.button-o:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  line-height: 64px;
+  color: #212B31;
+}
+
+h2 {
+  color: #212B31;
+}
+
+h3 {
+  font-size: 18px;
+  color: #212B31;
+}
+
+p {
+  font-size: 20;
+  color: #72787D;
 }
 
 .container {
@@ -37,6 +68,7 @@ body * {
   padding: 0 35px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .navbar__logo {
@@ -64,5 +96,47 @@ body * {
 
 .navbar__button {
   padding: 9px 20px;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  background: url("../img/hero/hero-bg.png") center no-repeat;
+  background-size: contain;
+}
+
+.hero__button-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__button {
+  margin: 0 8px;
+}
+
+.hero__advantage-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__advantage {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 600px;
+}
+
+.hero__advantage__image {
+  margin-bottom: 20px;
+}
+
+.hero__advantage__title {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
