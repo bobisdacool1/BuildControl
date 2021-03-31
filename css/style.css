@@ -226,4 +226,36 @@ p {
 .partners__image-6 {
   background-image: url("../img/partners/partner-6.png");
 }
+
+.definition {
+  margin-top: 120px;
+}
+
+.definition__title {
+  text-align: center;
+}
+
+.definition__description {
+  text-align: center;
+  margin-bottom: 30pxgit;
+}
+
+.definition__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.definition__item--reverse {
+  flex-direction: row-reverse;
+}
+
+.definition__item__wrap {
+  width: 49%;
+}
+
+.definition__title__description {
+  font-size: 16px;
+}
 /*# sourceMappingURL=style.css.map */
